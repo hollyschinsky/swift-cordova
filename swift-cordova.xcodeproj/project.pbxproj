@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		539A26868F3EF97706040897 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C202F81DBF4EE30172F232 /* libPods.a */; };
+		8081FF831C77E93E00280C71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081FF821C77E93E00280C71 /* AppDelegate.swift */; };
+		8081FF851C77E93E00280C71 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081FF841C77E93E00280C71 /* FirstViewController.swift */; };
+		8081FF871C77E93E00280C71 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081FF861C77E93E00280C71 /* SecondViewController.swift */; };
+		8081FF8A1C77E93E00280C71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8081FF881C77E93E00280C71 /* Main.storyboard */; };
+		8081FF8C1C77E93E00280C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8081FF8B1C77E93E00280C71 /* Assets.xcassets */; };
+		8081FF8F1C77E93E00280C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8081FF8D1C77E93E00280C71 /* LaunchScreen.storyboard */; };
+		8081FF9A1C77E93E00280C71 /* swift_cordovaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081FF991C77E93E00280C71 /* swift_cordovaTests.swift */; };
+		8081FFA51C77E93E00280C71 /* swift_cordovaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081FFA41C77E93E00280C71 /* swift_cordovaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8081FF961C77E93E00280C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8081FF771C77E93D00280C71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8081FF7E1C77E93D00280C71;
+			remoteInfo = "swift-cordova";
+		};
+		8081FFA11C77E93E00280C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8081FF771C77E93D00280C71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8081FF7E1C77E93D00280C71;
+			remoteInfo = "swift-cordova";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28C202F81DBF4EE30172F232 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43788ECC6EDDAA9B8C6F4BFD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6C3B6F6DB5FEDD14E627CBAE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8081FF7F1C77E93D00280C71 /* swift-cordova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-cordova.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8081FF821C77E93E00280C71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8081FF841C77E93E00280C71 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		8081FF861C77E93E00280C71 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8081FF891C77E93E00280C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8081FF8B1C77E93E00280C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8081FF8E1C77E93E00280C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8081FF901C77E93E00280C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8081FF951C77E93E00280C71 /* swift-cordovaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-cordovaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8081FF991C77E93E00280C71 /* swift_cordovaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_cordovaTests.swift; sourceTree = "<group>"; };
+		8081FF9B1C77E93E00280C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8081FFA01C77E93E00280C71 /* swift-cordovaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-cordovaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8081FFA41C77E93E00280C71 /* swift_cordovaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_cordovaUITests.swift; sourceTree = "<group>"; };
+		8081FFA61C77E93E00280C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8081FFB21C77EA1E00280C71 /* bridge-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bridge-header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8081FF7C1C77E93D00280C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539A26868F3EF97706040897 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8081FF921C77E93E00280C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8081FF9D1C77E93E00280C71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065B1B50CF07E7667F369720 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28C202F81DBF4EE30172F232 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8081FF761C77E93D00280C71 = {
+			isa = PBXGroup;
+			children = (
+				8081FFB21C77EA1E00280C71 /* bridge-header.h */,
+				8081FF811C77E93D00280C71 /* swift-cordova */,
+				8081FF981C77E93E00280C71 /* swift-cordovaTests */,
+				8081FFA31C77E93E00280C71 /* swift-cordovaUITests */,
+				8081FF801C77E93D00280C71 /* Products */,
+				F6022A69AF28FB89ECA5F2DF /* Pods */,
+				065B1B50CF07E7667F369720 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8081FF801C77E93D00280C71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8081FF7F1C77E93D00280C71 /* swift-cordova.app */,
+				8081FF951C77E93E00280C71 /* swift-cordovaTests.xctest */,
+				8081FFA01C77E93E00280C71 /* swift-cordovaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8081FF811C77E93D00280C71 /* swift-cordova */ = {
+			isa = PBXGroup;
+			children = (
+				8081FF821C77E93E00280C71 /* AppDelegate.swift */,
+				8081FF841C77E93E00280C71 /* FirstViewController.swift */,
+				8081FF861C77E93E00280C71 /* SecondViewController.swift */,
+				8081FF881C77E93E00280C71 /* Main.storyboard */,
+				8081FF8B1C77E93E00280C71 /* Assets.xcassets */,
+				8081FF8D1C77E93E00280C71 /* LaunchScreen.storyboard */,
+				8081FF901C77E93E00280C71 /* Info.plist */,
+			);
+			path = "swift-cordova";
+			sourceTree = "<group>";
+		};
+		8081FF981C77E93E00280C71 /* swift-cordovaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8081FF991C77E93E00280C71 /* swift_cordovaTests.swift */,
+				8081FF9B1C77E93E00280C71 /* Info.plist */,
+			);
+			path = "swift-cordovaTests";
+			sourceTree = "<group>";
+		};
+		8081FFA31C77E93E00280C71 /* swift-cordovaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8081FFA41C77E93E00280C71 /* swift_cordovaUITests.swift */,
+				8081FFA61C77E93E00280C71 /* Info.plist */,
+			);
+			path = "swift-cordovaUITests";
+			sourceTree = "<group>";
+		};
+		F6022A69AF28FB89ECA5F2DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43788ECC6EDDAA9B8C6F4BFD /* Pods.debug.xcconfig */,
+				6C3B6F6DB5FEDD14E627CBAE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8081FF7E1C77E93D00280C71 /* swift-cordova */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8081FFA91C77E93E00280C71 /* Build configuration list for PBXNativeTarget "swift-cordova" */;
+			buildPhases = (
+				C01A08335B5A38212D1755A0 /* Check Pods Manifest.lock */,
+				8081FF7B1C77E93D00280C71 /* Sources */,
+				8081FF7C1C77E93D00280C71 /* Frameworks */,
+				8081FF7D1C77E93D00280C71 /* Resources */,
+				8DFE2196EA9FB8B31D51593C /* Embed Pods Frameworks */,
+				C67CAFE29AF8A885D54A4AB0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-cordova";
+			productName = "swift-cordova";
+			productReference = 8081FF7F1C77E93D00280C71 /* swift-cordova.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8081FF941C77E93E00280C71 /* swift-cordovaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8081FFAC1C77E93E00280C71 /* Build configuration list for PBXNativeTarget "swift-cordovaTests" */;
+			buildPhases = (
+				8081FF911C77E93E00280C71 /* Sources */,
+				8081FF921C77E93E00280C71 /* Frameworks */,
+				8081FF931C77E93E00280C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8081FF971C77E93E00280C71 /* PBXTargetDependency */,
+			);
+			name = "swift-cordovaTests";
+			productName = "swift-cordovaTests";
+			productReference = 8081FF951C77E93E00280C71 /* swift-cordovaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8081FF9F1C77E93E00280C71 /* swift-cordovaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8081FFAF1C77E93E00280C71 /* Build configuration list for PBXNativeTarget "swift-cordovaUITests" */;
+			buildPhases = (
+				8081FF9C1C77E93E00280C71 /* Sources */,
+				8081FF9D1C77E93E00280C71 /* Frameworks */,
+				8081FF9E1C77E93E00280C71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8081FFA21C77E93E00280C71 /* PBXTargetDependency */,
+			);
+			name = "swift-cordovaUITests";
+			productName = "swift-cordovaUITests";
+			productReference = 8081FFA01C77E93E00280C71 /* swift-cordovaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8081FF771C77E93D00280C71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Holly Schinsky";
+				TargetAttributes = {
+					8081FF7E1C77E93D00280C71 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
+					};
+					8081FF941C77E93E00280C71 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 8081FF7E1C77E93D00280C71;
+					};
+					8081FF9F1C77E93E00280C71 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 8081FF7E1C77E93D00280C71;
+					};
+				};
+			};
+			buildConfigurationList = 8081FF7A1C77E93D00280C71 /* Build configuration list for PBXProject "swift-cordova" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8081FF761C77E93D00280C71;
+			productRefGroup = 8081FF801C77E93D00280C71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8081FF7E1C77E93D00280C71 /* swift-cordova */,
+				8081FF941C77E93E00280C71 /* swift-cordovaTests */,
+				8081FF9F1C77E93E00280C71 /* swift-cordovaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8081FF7D1C77E93D00280C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8081FF8F1C77E93E00280C71 /* LaunchScreen.storyboard in Resources */,
+				8081FF8C1C77E93E00280C71 /* Assets.xcassets in Resources */,
+				8081FF8A1C77E93E00280C71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8081FF931C77E93E00280C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8081FF9E1C77E93E00280C71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8DFE2196EA9FB8B31D51593C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C01A08335B5A38212D1755A0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C67CAFE29AF8A885D54A4AB0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8081FF7B1C77E93D00280C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8081FF871C77E93E00280C71 /* SecondViewController.swift in Sources */,
+				8081FF831C77E93E00280C71 /* AppDelegate.swift in Sources */,
+				8081FF851C77E93E00280C71 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8081FF911C77E93E00280C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8081FF9A1C77E93E00280C71 /* swift_cordovaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8081FF9C1C77E93E00280C71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8081FFA51C77E93E00280C71 /* swift_cordovaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8081FF971C77E93E00280C71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8081FF7E1C77E93D00280C71 /* swift-cordova */;
+			targetProxy = 8081FF961C77E93E00280C71 /* PBXContainerItemProxy */;
+		};
+		8081FFA21C77E93E00280C71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8081FF7E1C77E93D00280C71 /* swift-cordova */;
+			targetProxy = 8081FFA11C77E93E00280C71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8081FF881C77E93E00280C71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8081FF891C77E93E00280C71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8081FF8D1C77E93E00280C71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8081FF8E1C77E93E00280C71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8081FFA71C77E93E00280C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8081FFA81C77E93E00280C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8081FFAA1C77E93E00280C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43788ECC6EDDAA9B8C6F4BFD /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "swift-cordova/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.devgirl.swift-cordova";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bridge-header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8081FFAB1C77E93E00280C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C3B6F6DB5FEDD14E627CBAE /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "swift-cordova/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.devgirl.swift-cordova";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bridge-header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8081FFAD1C77E93E00280C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "swift-cordovaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.devgirl.swift-cordovaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-cordova.app/swift-cordova";
+			};
+			name = Debug;
+		};
+		8081FFAE1C77E93E00280C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "swift-cordovaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.devgirl.swift-cordovaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-cordova.app/swift-cordova";
+			};
+			name = Release;
+		};
+		8081FFB01C77E93E00280C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "swift-cordovaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.devgirl.swift-cordovaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "swift-cordova";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8081FFB11C77E93E00280C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "swift-cordovaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.devgirl.swift-cordovaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "swift-cordova";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8081FF7A1C77E93D00280C71 /* Build configuration list for PBXProject "swift-cordova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8081FFA71C77E93E00280C71 /* Debug */,
+				8081FFA81C77E93E00280C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8081FFA91C77E93E00280C71 /* Build configuration list for PBXNativeTarget "swift-cordova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8081FFAA1C77E93E00280C71 /* Debug */,
+				8081FFAB1C77E93E00280C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8081FFAC1C77E93E00280C71 /* Build configuration list for PBXNativeTarget "swift-cordovaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8081FFAD1C77E93E00280C71 /* Debug */,
+				8081FFAE1C77E93E00280C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8081FFAF1C77E93E00280C71 /* Build configuration list for PBXNativeTarget "swift-cordovaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8081FFB01C77E93E00280C71 /* Debug */,
+				8081FFB11C77E93E00280C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8081FF771C77E93D00280C71 /* Project object */;
+}
